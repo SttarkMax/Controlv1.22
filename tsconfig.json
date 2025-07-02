@@ -1,4 +1,3 @@
-
 {
   "compilerOptions": {
     "target": "ES2020",
@@ -9,7 +8,8 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "types": ["node"]      // <== ADICIONE ESSA LINHA
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
